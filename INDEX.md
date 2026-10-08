@@ -1,0 +1,14 @@
+# INDEX.md — где что лежит
+
+- `AGENTS.md` — правила работы агента в проекте.
+- `STATUS.md` — где работа сейчас; читать в начале сессии.
+- `diary.md` — журнал проекта; только дописывается.
+- `data/README.md` — описание каталогов Happy: столбцы, роли выборок.
+- `data/raw/happy_A.txt` — обучающая выборка; только чтение.
+- `data/raw/happy_B.txt`, `data/raw/happy_D.txt` — проверочные выборки; только чтение.
+- `paper/paper.pdf` — Ashmead et al., arXiv:2512.09032v2.
+- `memory/L1.md` — реферат статьи по частям (сжатие учебным агентом скриптом курса cascade.sh); `memory/L1/` — сжатия отдельных частей; `memory/L2.md` — тезисы со страницами и сверкой; `memory/L3.md` — одна строка.
+- `src/photoz.py` — kNN photo-z: `load()`, `predict_knn()`, `metrics()`; пишет `results/`.
+- `checks/check.py` — проверка результата (критерий готовности); только чтение.
+- `results/metrics.csv` — метрики по выборкам B и D.
+- `results/predictions_B.csv`, `results/predictions_D.csv` — photo-z по галактикам.
