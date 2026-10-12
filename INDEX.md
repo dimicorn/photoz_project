@@ -12,3 +12,8 @@
 - `checks/check.py` — проверка результата (критерий готовности); только чтение.
 - `results/metrics.csv` — метрики по выборкам B и D.
 - `results/predictions_B.csv`, `results/predictions_D.csv` — photo-z по галактикам.
+- `ontology.yaml` — онтология: классы, отношения, правила; только чтение.
+- `ontology/` — заметки классов (создаёт `src/graph.py classes`).
+- `notes/` — заметки объектов работы; `tasks/` — задачи со статусами; `reports/` — отчёты.
+- `src/graph.py` — запись заметок из YAML (`apply`) и смена статуса задачи (`status`).
+- `checks/check_graph.py` — проверка графа по онтологии; только чтение.
