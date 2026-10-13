@@ -1,4 +1,4 @@
-"""photo-z методом kNN: обучение на Happy A, предсказания на B и D."""
+"""photo-z методом kNN: обучение на Happy A, предсказания на B, C и D."""
 
 import csv
 import sys
@@ -15,6 +15,8 @@ RES.mkdir(exist_ok=True)
 K = 10
 FEATS = slice(7, 12)  # feat1..feat5
 ZCOL = 6              # z_spec
+
+all_metrics: dict = {}
 
 
 def load(name: str) -> np.ndarray:
@@ -51,14 +53,14 @@ def save_predictions(name: str, data: np.ndarray, z_phot: np.ndarray) -> None:
 
 
 def save_metrics(sample: str, n: int, k: int, m: dict) -> None:
-    """Добавить строку в metrics.csv."""
+    """Накопить метрику и перезаписать metrics.csv."""
+    all_metrics[sample] = {"n": n, "k": k, "m": m}
     path = RES / "metrics.csv"
-    exists = path.exists()
-    with open(path, "a", newline="", encoding="utf-8") as f:
+    with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["sample", "n", "k", "bias", "sigma_nmad", "outlier_frac"])
-        if not exists:
-            w.writeheader()
-        w.writerow({"sample": sample, "n": n, "k": k, **m})
+        w.writeheader()
+        for s, d in all_metrics.items():
+            w.writerow({"sample": s, "n": d["n"], "k": d["k"], **d["m"]})
 
 
 def main():
@@ -66,7 +68,7 @@ def main():
     train = load("A")
     print(f"  {len(train)} галактик")
 
-    for name in ["B", "D"]:
+    for name in ["B", "C", "D"]:
         print(f"\nОбработка {name}...")
         data = load(name)
         print(f"  {len(data)} галактик")
