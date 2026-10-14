@@ -7,9 +7,8 @@ kNN photo-z (k = 10, feat1..feat5, обучение на Happy A) готов: σ
 σ_NMAD растёт B < C < D.
 `.venv/bin/python checks/check.py` — код 0.
 
-Исправлен `save_metrics()` — `results/metrics.csv` теперь перезаписывается.
-
-Граф проекта: онтология (17 классов, 14 правил), 20 объектов; `checks/check_graph.py` — код 0.
+Создан отчёт `reports/Качество photo-z при смещении выборки.md` — таблица метрик B/C/D
+и два утверждения из Ashmead 2026. `checks/check_graph.py` — код 0.
 
 Статья сжата учебным агентом (`cascade.sh`, 08.10): `memory/L1.md` (8 частей, части в `memory/L1/`),
 `memory/L2.md` (10 тезисов), `memory/L3.md`. Сверка L2 по PDF и строка «Статья:» в L1 — за человеком.
