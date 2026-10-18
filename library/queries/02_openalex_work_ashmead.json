@@ -1,0 +1,92 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W4417288889?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W4417288889",
+  "title": "Optimizing Photometric Redshift Training Sets. I. Efficient Compression of the Galaxy Color–Redshift Relation with UMAP",
+  "year": 2026,
+  "authors": [
+   {
+    "name": "Finian Ashmead",
+    "openalex_id": "A5056422823",
+    "institutions": [
+     "University of Pittsburgh"
+    ]
+   },
+   {
+    "name": "Jeffrey A. Newman",
+    "openalex_id": "A5026944546",
+    "institutions": [
+     "University of Pittsburgh"
+    ]
+   },
+   {
+    "name": "Brett H. Andrews",
+    "openalex_id": "A5008859611",
+    "institutions": [
+     "University of Pittsburgh"
+    ]
+   },
+   {
+    "name": "Rachel Bezanson",
+    "openalex_id": "A5020636086",
+    "institutions": [
+     "University of Pittsburgh"
+    ]
+   },
+   {
+    "name": "Biprateep Dey",
+    "openalex_id": "A5080419920",
+    "institutions": [
+     "University of Toronto",
+     "Vector Institute"
+    ]
+   },
+   {
+    "name": "Daniel C. Masters",
+    "openalex_id": "A5061314579",
+    "institutions": [
+     "California Institute of Technology",
+     "Infrared Processing and Analysis Center"
+    ]
+   },
+   {
+    "name": "Spencer A Stanford",
+    "openalex_id": "A5015954432",
+    "institutions": [
+     "University of California, Davis"
+    ]
+   }
+  ],
+  "source": "The Astrophysical Journal",
+  "type": "article",
+  "cited_by": 0,
+  "doi": "10.3847/1538-4357/aea207",
+  "oa_status": "gold",
+  "oa_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea207/pdf",
+  "publication_date": "2026-10-13",
+  "volume": "1010",
+  "issue": "2",
+  "pages": "140",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 0,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://iopscience.iop.org/article/10.3847/1538-4357/aea207/pdf",
+   "https://arxiv.org/pdf/2512.09032"
+  ],
+  "abstract": "Abstract Spectroscopic datasets are essential for training and calibrating photometric redshift (photo- z ) methods. However, spectroscopic redshifts (spec- z ’s) constitute a biased and sparse sampling of the photometric galaxy population, which creates difficulties for the common grid-based approach for mapping color to redshift using self-organizing maps (SOMs). Instead, we utilized the uniform manifold approximation and projection (UMAP) algorithm to compress a Rubin–Roman-like ugrizyJH color space into a thin and densely sampled manifold. Crucially, the manifold varies continuously and monotonically in redshift and specific star formation rate in roughly orthogonal directions. Using COSMOS2020 many-band photo- z ’s and compiled spec- z ’s as representative and nonrepresentative samples, respectively, we trained and tested redshift prediction from an SOM, from nearest neighbors in UMAP coordinates (UMAP- k NN- z ), and directly from nearest neighbors in the color space to assess how well location in each space maps to redshift. For the representative training set, UMAP- k NN- z exhibited smaller photo- z scatter and fraction of outliers than SOM-based methods. When training with the highly biased spec- z sample, UMAP- k NN- z maintained similar performance while SOM- and color-based methods predictions were significantly degraded, especially at z > 1.5 where training sets are the most sparse. The physically meaningful trends across the UMAP manifold allow for accurate red …"
+ }
+}

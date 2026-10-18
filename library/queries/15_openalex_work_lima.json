@@ -1,0 +1,85 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W2145550174?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W2145550174",
+  "title": "Estimating the redshift distribution of photometric galaxy samples",
+  "year": 2008,
+  "authors": [
+   {
+    "name": "M. Lima",
+    "openalex_id": "A5078454060",
+    "institutions": [
+     "University of Chicago"
+    ]
+   },
+   {
+    "name": "Carlos E. Cunha",
+    "openalex_id": "A5103551210",
+    "institutions": [
+     "University of Chicago"
+    ]
+   },
+   {
+    "name": "Hiroaki Oyaizu",
+    "openalex_id": "A5020931432",
+    "institutions": [
+     "University of Chicago"
+    ]
+   },
+   {
+    "name": "Joshua A. Frieman",
+    "openalex_id": "A5021421082",
+    "institutions": [
+     "Fermi National Accelerator Laboratory",
+     "University of Chicago"
+    ]
+   },
+   {
+    "name": "Huan Lin",
+    "openalex_id": "A5101938314",
+    "institutions": [
+     "Fermi National Accelerator Laboratory"
+    ]
+   },
+   {
+    "name": "Erin Scott Sheldon",
+    "openalex_id": "A5031486005",
+    "institutions": [
+     "New York University"
+    ]
+   }
+  ],
+  "source": "Monthly Notices of the Royal Astronomical Society",
+  "type": "article",
+  "cited_by": 201,
+  "doi": "10.1111/j.1365-2966.2008.13510.x",
+  "oa_status": "bronze",
+  "oa_url": "https://academic.oup.com/mnras/article-pdf/390/1/118/2955170/mnras0390-0118.pdf",
+  "publication_date": "2008-10-01",
+  "volume": "390",
+  "issue": "1",
+  "pages": "118–130",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 32,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://academic.oup.com/mnras/article-pdf/390/1/118/2955170/mnras0390-0118.pdf",
+   "https://arxiv.org/pdf/0801.3822",
+   "https://digital.library.unt.edu/ark:/67531/metadc902328/"
+  ],
+  "abstract": "We present an empirical method for estimating the underlying redshift distribution N(z) of galaxy photometric samples from photometric observables. The method does not rely on photometric redshift (photo-z) estimates for individual galaxies, which typically suffer from biases. Instead, it assigns weights to galaxies in a spectroscopic subsample such that the weighted distributions of photometric observables (e.g. multiband magnitudes) match the corresponding distributions for the photometric sample. The weights are estimated using a nearest neighbour technique that ensures stability in sparsely populated regions of colour–magnitude space. The derived weights are then summed in redshift bins to create the redshift distribution. We apply this weighting technique to data from the Sloan Digital Sky Survey as well as to mock catalogues for the Dark Energy Survey, and compare the results to those from the estimation of photo-zs derived by a neural network algorithm. We find that the weighting method accurately recovers the underlying redshift distribution, typically better than the photo-z reconstruction, provided the spectroscopic subsample spans the range of photometric observables covered by the photometric sample."
+ }
+}

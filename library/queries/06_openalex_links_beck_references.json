@@ -1,0 +1,408 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?filter=cited_by%3AW2584691382&sort=cited_by_count%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&per_page=25",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": "W2584691382",
+ "relation": "references",
+ "found": 113,
+ "results": [
+  {
+   "openalex_id": "W2911964244",
+   "title": "Random Forests",
+   "year": 2001,
+   "authors": [
+    "Leo Breiman"
+   ],
+   "source": "Machine Learning",
+   "type": "article",
+   "cited_by": 132032,
+   "doi": "10.1023/a:1010933404324",
+   "oa_status": "green",
+   "oa_url": "https://www.ine.es/up/zEkXkJIZ"
+  },
+  {
+   "openalex_id": "W2990138404",
+   "title": "Advances in Neural Information Processing Systems 19",
+   "year": 2007,
+   "authors": [],
+   "source": "The MIT Press eBooks",
+   "type": "book",
+   "cited_by": 15540,
+   "doi": "10.52202/085713",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2111817932",
+   "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+   "year": 1998,
+   "authors": [
+    "David J. Schlegel",
+    "Douglas P. Finkbeiner",
+    "Marc Davis"
+   ],
+   "source": "The Astrophysical Journal",
+   "type": "article",
+   "cited_by": 15123,
+   "doi": "10.1086/305772",
+   "oa_status": "hybrid",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/305772/pdf"
+  },
+  {
+   "openalex_id": "W3112717819",
+   "title": "Generalized Additive Models",
+   "year": 2017,
+   "authors": [
+    "Simon N. Wood"
+   ],
+   "source": "Chapman & Hall/CRC eBooks",
+   "type": "book",
+   "cited_by": 13700,
+   "doi": "10.1201/9781315370279",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W1994671833",
+   "title": "Stellar population synthesis at the resolution of 2003",
+   "year": 2003,
+   "authors": [
+    "Gustavo A. Bruzual",
+    "S. Charlot"
+   ],
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "type": "article",
+   "cited_by": 10488,
+   "doi": "10.1046/j.1365-8711.2003.06897.x",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/astro-ph/0309134"
+  },
+  {
+   "openalex_id": "W4292023222",
+   "title": "Principal Component Analysis",
+   "year": 1986,
+   "authors": [
+    "Ian T. Jolliffe"
+   ],
+   "source": "Springer series in statistics",
+   "type": "book",
+   "cited_by": 8275,
+   "doi": "10.1007/978-1-4757-1904-8",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2797583072",
+   "title": "Generalized Additive Models.",
+   "year": 1991,
+   "authors": [
+    "Richard A. Brown",
+    "Trevor J. Hastie",
+    "Robert John Tibshirani"
+   ],
+   "source": "Biometrics",
+   "type": "article",
+   "cited_by": 8174,
+   "doi": "10.2307/2532174",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W4249303080",
+   "title": "Generalized Additive Models.",
+   "year": 1991,
+   "authors": [
+    "Robert A. Koyak",
+    "Trevor J. Hastie",
+    "R. J. Tibshirani"
+   ],
+   "source": "Journal of the American Statistical Association",
+   "type": "article",
+   "cited_by": 7596,
+   "doi": "10.2307/2290538",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2801490189",
+   "title": "Generalized Linear Models",
+   "year": 1972,
+   "authors": [
+    "John Ashworth Nelder",
+    "R. W. M. Wedderburn"
+   ],
+   "source": "Journal of the Royal Statistical Society Series A (General)",
+   "type": "article",
+   "cited_by": 7479,
+   "doi": "10.2307/2344614",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2122450421",
+   "title": "Applied Linear Statistical Models",
+   "year": 1997,
+   "authors": [
+    "Michael Kutner",
+    "Nachtsheim, Christopher J.",
+    "Neter, John",
+    "Li, William"
+   ],
+   "source": "Technometrics",
+   "type": "article",
+   "cited_by": 7185,
+   "doi": "10.1080/00401706.1997.10485141",
+   "oa_status": "bronze",
+   "oa_url": "https://www.tandfonline.com/doi/abs/10.1080/00401706.1997.10485141"
+  },
+  {
+   "openalex_id": "W4291114417",
+   "title": "Applied Linear Statistical Models.",
+   "year": 1986,
+   "authors": [
+    "Frederick Oscar Lorenz",
+    "John Neter",
+    "William Wasserman",
+    "Michael Kutner"
+   ],
+   "source": "Journal of the American Statistical Association",
+   "type": "article",
+   "cited_by": 5566,
+   "doi": "10.2307/2289108",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W4298870098",
+   "title": "Generalized Additive Models",
+   "year": 2006,
+   "authors": [
+    "Simon N. Wood"
+   ],
+   "source": "Chapman & Hall/CRC eBooks",
+   "type": "book",
+   "cited_by": 4950,
+   "doi": "10.1201/9781420010404",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2763148304",
+   "title": "Principal component analysis",
+   "year": 2014,
+   "authors": [
+    "Rasmus Bro",
+    "Age K. Smilde"
+   ],
+   "source": "Analytical Methods",
+   "type": "article",
+   "cited_by": 3027,
+   "doi": "10.1039/c3ay41907j",
+   "oa_status": "hybrid",
+   "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2014/ay/c3ay41907j"
+  },
+  {
+   "openalex_id": "W2329094530",
+   "title": "An Introduction to Generalized Linear Models.",
+   "year": 1991,
+   "authors": [
+    "Potter C. Chang",
+    "Annette Jane Dobson"
+   ],
+   "source": "Journal of the American Statistical Association",
+   "type": "article",
+   "cited_by": 2509,
+   "doi": "10.2307/2290548",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W1943306457",
+   "title": "THE ELEVENTH AND TWELFTH DATA RELEASES OF THE SLOAN DIGITAL SKY SURVEY: FINAL DATA FROM SDSS-III",
+   "year": 2015,
+   "authors": [
+    "Shadab Alam",
+    "Franco D. Albareti",
+    "Carlos Allende Prieto",
+    "Friedrich Anders",
+    "Scott F. Anderson",
+    "и др."
+   ],
+   "source": "The Astrophysical Journal Supplement Series",
+   "type": "article",
+   "cited_by": 2498,
+   "doi": "10.1088/0067-0049/219/1/12",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1088/0067-0049/219/1/12/pdf"
+  },
+  {
+   "openalex_id": "W2170689655",
+   "title": "The 2dF Galaxy Redshift Survey: spectra and redshifts",
+   "year": 2001,
+   "authors": [
+    "Matthew Colless",
+    "Gavin Dalton",
+    "S. Maddox",
+    "William J. Sutherland",
+    "Peder Norberg",
+    "и др."
+   ],
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "type": "article",
+   "cited_by": 2363,
+   "doi": "10.1046/j.1365-8711.2001.04902.x",
+   "oa_status": "bronze",
+   "oa_url": "https://academic.oup.com/mnras/article-pdf/328/4/1039/3780131/328-4-1039.pdf"
+  },
+  {
+   "openalex_id": "W1423766661",
+   "title": "Semiparametric Regression",
+   "year": 2003,
+   "authors": [
+    "David Ruppert",
+    "MATTHEW P. WAND",
+    "Raymond James Carroll"
+   ],
+   "source": "Cambridge University Press eBooks",
+   "type": "book",
+   "cited_by": 2215,
+   "doi": "10.1017/cbo9780511755453",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2080173214",
+   "title": "EAZY: A Fast, Public Photometric Redshift Code",
+   "year": 2008,
+   "authors": [
+    "Gabriel B. Brammer",
+    "Pieter G. van Dokkum",
+    "P. Coppi"
+   ],
+   "source": "The Astrophysical Journal",
+   "type": "article",
+   "cited_by": 1869,
+   "doi": "10.1086/591786",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/591786/pdf"
+  },
+  {
+   "openalex_id": "W2167335950",
+   "title": "Accurate photometric redshifts for the CFHT legacy survey calibrated using the VIMOS VLT deep survey",
+   "year": 2006,
+   "authors": [
+    "Olivier Ilbert",
+    "Stéphane Arnouts",
+    "Henry Joy McCracken",
+    "M. Bolzonella",
+    "E. Bertin",
+    "и др."
+   ],
+   "source": "Astronomy and Astrophysics",
+   "type": "article",
+   "cited_by": 1678,
+   "doi": "10.1051/0004-6361:20065138",
+   "oa_status": "bronze",
+   "oa_url": "https://www.aanda.org/articles/aa/pdf/2006/39/aa5138-06.pdf"
+  },
+  {
+   "openalex_id": "W2028715663",
+   "title": "K -Corrections and Filter Transformations in the Ultraviolet, Optical, and Near-Infrared",
+   "year": 2007,
+   "authors": [
+    "Michael Rogers Blanton",
+    "Sam T. Roweis"
+   ],
+   "source": "The Astronomical Journal",
+   "type": "article",
+   "cited_by": 1642,
+   "doi": "10.1086/510127",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/510127/pdf"
+  },
+  {
+   "openalex_id": "W2112483442",
+   "title": "Correcting Sample Selection Bias by Unlabeled Data",
+   "year": 2007,
+   "authors": [
+    "Jiayuan Huang",
+    "Alexander Johannes Smola",
+    "Arthur Gretton",
+    "Karsten Michael Borgwardt",
+    "Bernhard Schölkopf"
+   ],
+   "source": "The MIT Press eBooks",
+   "type": "book-chapter",
+   "cited_by": 1616,
+   "doi": "10.7551/mitpress/7503.003.0080",
+   "oa_status": "green",
+   "oa_url": "https://openresearch-repository.anu.edu.au/bitstreams/2677e202-6484-42ab-9c6e-6112fdb6d357/download"
+  },
+  {
+   "openalex_id": "W2081908062",
+   "title": "Generalized Additive Models: An Introduction With R",
+   "year": 2007,
+   "authors": [
+    "Christine M. Anderson‐Cook"
+   ],
+   "source": "Journal of the American Statistical Association",
+   "type": "book-review",
+   "cited_by": 1582,
+   "doi": "10.1198/jasa.2007.s188",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2162651021",
+   "title": "Dataset Shift in Machine Learning",
+   "year": 2008,
+   "authors": [],
+   "source": "The MIT Press eBooks",
+   "type": "book",
+   "cited_by": 1536,
+   "doi": "10.7551/mitpress/9780262170055.001.0001",
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  {
+   "openalex_id": "W2952853822",
+   "title": "Euclid Definition Study Report",
+   "year": 2011,
+   "authors": [
+    "R. Laureijs",
+    "J. Amiaux",
+    "S. Arduini",
+    "J.-L. Auguères",
+    "J. Brinchmann",
+    "и др."
+   ],
+   "source": "CERN Document Server (European Organization for Nuclear Research)",
+   "type": "article",
+   "cited_by": 1313,
+   "doi": "10.48550/arxiv.1110.3193",
+   "oa_status": "green",
+   "oa_url": "https://cds.cern.ch/record/1390653/files/arXiv:1110.3193.pdf"
+  },
+  {
+   "openalex_id": "W3008948231",
+   "title": "Applied Linear Statistical Models",
+   "year": 1986,
+   "authors": [
+    "Ralph C. St. John"
+   ],
+   "source": "Journal of Quality Technology",
+   "type": "article",
+   "cited_by": 1307,
+   "doi": "10.1080/00224065.1986.11978989",
+   "oa_status": "closed",
+   "oa_url": null
+  }
+ ]
+}

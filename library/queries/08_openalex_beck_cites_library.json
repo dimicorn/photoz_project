@@ -1,0 +1,98 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?filter=cited_by%3AW2584691382%2Copenalex%3AW2796135634%7CW2152876174%7CW2157396371%7CW1978622282%7CW2080173214%7CW2973810890%7CW4417288889%7CW3105893637%7CW7124747949%7CW4387731078%7CW2161966883%7CW2105919768%7CW2084797356%7CW2145550174%7CW2584691382%7CW2560721689%7CW2137615998%7CW4289726834%7CW2030697221%7CW2032744495&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&per_page=25",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "found": 5,
+ "results": [
+  {
+   "openalex_id": "W2080173214",
+   "title": "EAZY: A Fast, Public Photometric Redshift Code",
+   "year": 2008,
+   "authors": [
+    "Gabriel B. Brammer",
+    "Pieter G. van Dokkum",
+    "P. Coppi"
+   ],
+   "source": "The Astrophysical Journal",
+   "type": "article",
+   "cited_by": 1869,
+   "doi": "10.1086/591786",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/591786/pdf"
+  },
+  {
+   "openalex_id": "W2152876174",
+   "title": "ANNz: Estimating Photometric Redshifts Using Artificial Neural Networks",
+   "year": 2004,
+   "authors": [
+    "Adrian A. Collister",
+    "O. Lahav"
+   ],
+   "source": "Publications of the Astronomical Society of the Pacific",
+   "type": "article",
+   "cited_by": 512,
+   "doi": "10.1086/383254",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/383254/pdf"
+  },
+  {
+   "openalex_id": "W2032744495",
+   "title": "The Application of Photometric Redshifts to the SDSS Early Data Release",
+   "year": 2003,
+   "authors": [
+    "István Csabai",
+    "Tamás Budavári",
+    "Andrew J. Connolly",
+    "Alexander S. Szalay",
+    "Zsuzsanna Györy",
+    "и др."
+   ],
+   "source": "The Astronomical Journal",
+   "type": "article",
+   "cited_by": 217,
+   "doi": "10.1086/345883",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/345883/pdf"
+  },
+  {
+   "openalex_id": "W2145550174",
+   "title": "Estimating the redshift distribution of photometric galaxy samples",
+   "year": 2008,
+   "authors": [
+    "M. Lima",
+    "Carlos E. Cunha",
+    "Hiroaki Oyaizu",
+    "Joshua A. Frieman",
+    "Huan Lin",
+    "и др."
+   ],
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "type": "article",
+   "cited_by": 201,
+   "doi": "10.1111/j.1365-2966.2008.13510.x",
+   "oa_status": "bronze",
+   "oa_url": "https://academic.oup.com/mnras/article-pdf/390/1/118/2955170/mnras0390-0118.pdf"
+  },
+  {
+   "openalex_id": "W1978622282",
+   "title": "Estimating Photometric Redshifts Using Support Vector Machines",
+   "year": 2005,
+   "authors": [
+    "Yogesh G. Wadadekar"
+   ],
+   "source": "Publications of the Astronomical Society of the Pacific",
+   "type": "article",
+   "cited_by": 120,
+   "doi": "10.1086/427710",
+   "oa_status": "bronze",
+   "oa_url": "https://iopscience.iop.org/article/10.1086/427710/pdf"
+  }
+ ]
+}

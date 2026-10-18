@@ -1,0 +1,59 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?search=many+flavours+of+photometric+redshifts&per_page=3&sort=relevance_score%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2018-01-01%2Cto_publication_date%3A2020-12-31",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "found": 54,
+ "results": [
+  {
+   "openalex_id": "W2963284157",
+   "title": "The many flavours of photometric redshifts",
+   "year": 2018,
+   "authors": [
+    "Mara Salvato",
+    "Olivier Ilbert",
+    "Ben Hoyle"
+   ],
+   "source": "Nature Astronomy",
+   "type": "article",
+   "cited_by": 241,
+   "doi": "10.1038/s41550-018-0478-0",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/1805.12574"
+  },
+  {
+   "openalex_id": "W4232194128",
+   "title": "Developing a photometric estimate of quasar redshifts: An independent measurement of the distances to the most powerful objects in the Universe",
+   "year": 2019,
+   "authors": [
+    "Moss, Jeremy"
+   ],
+   "source": null,
+   "type": "dissertation",
+   "cited_by": 0,
+   "doi": "10.26686/wgtn.17142089",
+   "oa_status": "gold",
+   "oa_url": "https://openaccess.wgtn.ac.nz/articles/thesis/Developing_a_photometric_estimate_of_quasar_redshifts_An_independent_measurement_of_the_distances_to_the_most_powerful_objects_in_the_Universe/17142089/1/files/31697600.pdf"
+  },
+  {
+   "openalex_id": "W3011159964",
+   "title": "Developing a photometric estimate of quasar redshifts: An independent measurement of the distances to the most powerful objects in the Universe",
+   "year": 2019,
+   "authors": [
+    "Moss, Jeremy"
+   ],
+   "source": null,
+   "type": "dissertation",
+   "cited_by": 0,
+   "doi": "10.26686/wgtn.17142089.v1",
+   "oa_status": "green",
+   "oa_url": "https://figshare.com/articles/thesis/Developing_a_photometric_estimate_of_quasar_redshifts_An_independent_measurement_of_the_distances_to_the_most_powerful_objects_in_the_Universe/17142089"
+  }
+ ]
+}

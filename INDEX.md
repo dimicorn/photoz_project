@@ -17,3 +17,7 @@
 - `notes/` — заметки объектов работы; `tasks/` — задачи со статусами; `reports/` — отчёты.
 - `src/graph.py` — запись заметок из YAML (`apply`) и смена статуса задачи (`status`).
 - `checks/check_graph.py` — проверка графа по онтологии; только чтение.
+- `library/openalex_photoz_library.jsonl` — личная библиотека: 20 работ OpenAlex с аннотациями.
+- `library/queries/` — ответы инструментов research_mcp и Crossref с provenance (01–16).
+- `reports/my_search_report.md` — BM25 и векторный поиск по библиотеке, 5 запросов.
+- `reports/Качество photo-z при смещении выборки.md` — отчёт по метрикам B, C, D.

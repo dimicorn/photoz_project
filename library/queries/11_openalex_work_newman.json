@@ -1,0 +1,54 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W4281645604?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W4281645604",
+  "title": "Photometric Redshifts for Next-Generation Surveys",
+  "year": 2022,
+  "authors": [
+   {
+    "name": "Jeffrey A. Newman",
+    "openalex_id": "A5026944546",
+    "institutions": [
+     "University of Pittsburgh"
+    ]
+   },
+   {
+    "name": "Daniel Gruen",
+    "openalex_id": "A5022353207",
+    "institutions": [
+     "Ludwig-Maximilians-Universität München"
+    ]
+   }
+  ],
+  "source": "Annual Review of Astronomy and Astrophysics",
+  "type": "review",
+  "cited_by": 110,
+  "doi": "10.1146/annurev-astro-032122-014611",
+  "oa_status": "green",
+  "oa_url": "https://arxiv.org/pdf/2206.13633",
+  "publication_date": "2022-06-01",
+  "volume": "60",
+  "issue": "1",
+  "pages": "363–414",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 144,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://arxiv.org/pdf/2206.13633"
+  ],
+  "abstract": "Photometric redshifts are essential in studies of both galaxy evolution and cosmology, as they enable analyses of objects too numerous or faint for spectroscopy. The Rubin Observatory, Euclid, and Roman Space Telescope will soon provide a new generation of imaging surveys with unprecedented area coverage, wavelength range, and depth. To take full advantage of these data sets, further progress in photometric redshift methods is needed. In this review, we focus on the greatest common challenges and prospects for improvement in applications of photometric redshifts to the next generation of surveys: ▪ Gains in performance (i.e., the precision of redshift estimates for individual galaxies) could greatly enhance studies of galaxy evolution and some probes of cosmology. ▪ Improvements in characterization (i.e., the accurate recovery of redshift distributions of galaxies in the presence of uncertainty on individual redshifts) are urgently needed for cosmological measurements with next-generation surveys. To achieve both of these goals, improvements in the scope and treatment of the samples of spectroscopic redshifts that make high-fidelity photometric redshifts possible will also be needed. For the full potential of the next generation of surveys to be reached, the characterization of redshift distributions must improve by roughly an order of magnitude compared with the current state of the art, requiring progress on a wide variety of fronts. We conclude by presenting a speculative  …"
+ }
+}

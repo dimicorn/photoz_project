@@ -1,0 +1,34 @@
+{
+ "provenance": {
+  "source": "Wikidata Query Service",
+  "request": "https://query.wikidata.org/sparql",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ],
+  "sparql": "SELECT ?prop ?propLabel ?value ?valueLabel WHERE {\n  VALUES ?p { wdt:P31 wdt:P279 wdt:P361 wdt:P2579 }\n  wd:Q3967221 ?p ?value .\n  ?prop wikibase:directClaim ?p .\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"ru,en\". }\n}"
+ },
+ "found": 3,
+ "results": [
+  {
+   "prop": "http://www.wikidata.org/entity/P31",
+   "value": "http://www.wikidata.org/entity/Q2695280",
+   "propLabel": "это частный случай понятия",
+   "valueLabel": "техника"
+  },
+  {
+   "prop": "http://www.wikidata.org/entity/P31",
+   "value": "http://www.wikidata.org/entity/Q4373292",
+   "propLabel": "это частный случай понятия",
+   "valueLabel": "физическое свойство"
+  },
+  {
+   "prop": "http://www.wikidata.org/entity/P279",
+   "value": "http://www.wikidata.org/entity/Q76250",
+   "propLabel": "подкласс от",
+   "valueLabel": "красное смещение"
+  }
+ ]
+}

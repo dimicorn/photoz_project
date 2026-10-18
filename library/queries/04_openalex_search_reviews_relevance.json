@@ -1,0 +1,252 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?search=photometric+redshifts&per_page=15&sort=relevance_score%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2016-01-01%2Ctype%3Areview",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "found": 39,
+ "results": [
+  {
+   "openalex_id": "W4281645604",
+   "title": "Photometric Redshifts for Next-Generation Surveys",
+   "year": 2022,
+   "authors": [
+    "Jeffrey A. Newman",
+    "Daniel Gruen"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 110,
+   "doi": "10.1146/annurev-astro-032122-014611",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/2206.13633"
+  },
+  {
+   "openalex_id": "W2763843986",
+   "title": "Weak Lensing for Precision Cosmology",
+   "year": 2018,
+   "authors": [
+    "Rachel Mandelbaum"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 406,
+   "doi": "10.1146/annurev-astro-081817-051928",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081817-051928"
+  },
+  {
+   "openalex_id": "W2893487431",
+   "title": "The LOFAR Two-metre Sky Survey - II. First data release",
+   "year": 2018,
+   "authors": [
+    "T. W. Shimwell",
+    "Cyril Tasse",
+    "M. J. Hardcastle",
+    "A. P. Mechev",
+    "Wendy L. Williams",
+    "и др."
+   ],
+   "source": "UvA-DARE (University of Amsterdam)",
+   "type": "review",
+   "cited_by": 163,
+   "doi": "10.48550/arxiv.1811.07926",
+   "oa_status": "green",
+   "oa_url": "https://handle.uba.uva.nl/personal/pure/en/publications/the-lofar-twometre-sky-survey-ii(0a7d4445-1412-400b-9742-7243efd7a34d).html"
+  },
+  {
+   "openalex_id": "W3031947434",
+   "title": "Spatially Resolved Spectroscopic Properties of Low-Redshift Star-Forming Galaxies",
+   "year": 2020,
+   "authors": [
+    "Sebastián F. Sánchez"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 236,
+   "doi": "10.1146/annurev-astro-012120-013326",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-012120-013326"
+  },
+  {
+   "openalex_id": "W7165868701",
+   "title": "The ALMA View of High-Redshift Galaxy Formation",
+   "year": 2026,
+   "authors": [
+    "Renske Smit",
+    "R. A. A. Bowler"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 0,
+   "doi": "10.1146/annurev-astro-052722-104242",
+   "oa_status": "hybrid",
+   "oa_url": "https://doi.org/10.1146/annurev-astro-052722-104242"
+  },
+  {
+   "openalex_id": "W2902594394",
+   "title": "The Most Luminous Supernovae",
+   "year": 2019,
+   "authors": [
+    "Avishay Gal-Yam"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 256,
+   "doi": "10.1146/annurev-astro-081817-051819",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/1812.01428"
+  },
+  {
+   "openalex_id": "W3031566039",
+   "title": "Twenty-First-Century Statistical and Computational Challenges in Astrophysics",
+   "year": 2021,
+   "authors": [
+    "Eric D. Feigelson",
+    "Rafael S. de Souza",
+    "Émille E. O. Ishida",
+    "Gutti Jogesh Babu"
+   ],
+   "source": "Annual Review of Statistics and Its Application",
+   "type": "review",
+   "cited_by": 24,
+   "doi": "10.1146/annurev-statistics-042720-112045",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-statistics-042720-112045"
+  },
+  {
+   "openalex_id": "W4380357923",
+   "title": "Quasars and the Intergalactic Medium at Cosmic Dawn",
+   "year": 2023,
+   "authors": [
+    "Xiaohui Fan",
+    "Eduardo Bañados",
+    "Robert A. Simcoe"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 305,
+   "doi": "10.1146/annurev-astro-052920-102455",
+   "oa_status": "hybrid",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-052920-102455"
+  },
+  {
+   "openalex_id": "W2522290439",
+   "title": "Galaxies in the First Billion Years After the Big Bang",
+   "year": 2016,
+   "authors": [
+    "Daniel P. Stark"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 281,
+   "doi": "10.1146/annurev-astro-081915-023417",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081915-023417"
+  },
+  {
+   "openalex_id": "W4379740822",
+   "title": "The First Stars: Formation, Properties, and Impact",
+   "year": 2023,
+   "authors": [
+    "Ralf Stephan Klessen",
+    "Simon C. O. Glover"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 214,
+   "doi": "10.1146/annurev-astro-071221-053453",
+   "oa_status": "hybrid",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-071221-053453"
+  },
+  {
+   "openalex_id": "W3194640896",
+   "title": "The challenge of blending in large sky surveys",
+   "year": 2021,
+   "authors": [
+    "P. Melchior",
+    "R. Joseph",
+    "Javier Sánchez",
+    "N. MacCrann",
+    "Daniel Gruen"
+   ],
+   "source": "Nature Reviews Physics",
+   "type": "review",
+   "cited_by": 30,
+   "doi": "10.1038/s42254-021-00353-y",
+   "oa_status": "green",
+   "oa_url": "https://www.osti.gov/servlets/purl/1833317"
+  },
+  {
+   "openalex_id": "W3045615950",
+   "title": "Star-Forming Galaxies at Cosmic Noon",
+   "year": 2020,
+   "authors": [
+    "Natascha M. Förster Schreiber",
+    "Stijn Wuyts"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 238,
+   "doi": "10.1146/annurev-astro-032620-021910",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/2010.10171"
+  },
+  {
+   "openalex_id": "W3209295695",
+   "title": "Scientific machine learning benchmarks",
+   "year": 2022,
+   "authors": [
+    "Jeyan Thiyagalingam",
+    "Mallikarjun Arjun Shankar",
+    "Geoffrey Fox",
+    "Tony Hey"
+   ],
+   "source": "Nature Reviews Physics",
+   "type": "review",
+   "cited_by": 188,
+   "doi": "10.1038/s42254-022-00441-7",
+   "oa_status": "bronze",
+   "oa_url": "https://www.nature.com/articles/s42254-022-00441-7.pdf"
+  },
+  {
+   "openalex_id": "W2775727542",
+   "title": "Multiple Stellar Populations in Globular Clusters",
+   "year": 2018,
+   "authors": [
+    "N. Bastian",
+    "C. Lardo"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 692,
+   "doi": "10.1146/annurev-astro-081817-051839",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081817-051839"
+  },
+  {
+   "openalex_id": "W2977600537",
+   "title": "Enabling real-time multi-messenger astrophysics discoveries with deep learning",
+   "year": 2019,
+   "authors": [
+    "Eliu A. Huerta",
+    "Gabrielle Allen",
+    "Igor Andreoni",
+    "Javier Mauricio Antelis",
+    "E. Bachelet",
+    "и др."
+   ],
+   "source": "Nature Reviews Physics",
+   "type": "review",
+   "cited_by": 82,
+   "doi": "10.1038/s42254-019-0097-4",
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/1911.11779"
+  }
+ ]
+}

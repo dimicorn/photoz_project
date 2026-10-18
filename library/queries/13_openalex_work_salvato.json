@@ -1,0 +1,61 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W2963284157?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W2963284157",
+  "title": "The many flavours of photometric redshifts",
+  "year": 2018,
+  "authors": [
+   {
+    "name": "Mara Salvato",
+    "openalex_id": "A5039049327",
+    "institutions": [
+     "Max Planck Institute for Extraterrestrial Physics"
+    ]
+   },
+   {
+    "name": "Olivier Ilbert",
+    "openalex_id": "A5052031270",
+    "institutions": [
+     "Laboratoire d’Astrophysique de Marseille"
+    ]
+   },
+   {
+    "name": "Ben Hoyle",
+    "openalex_id": "A5006307580",
+    "institutions": [
+     "Max Planck Institute for Extraterrestrial Physics"
+    ]
+   }
+  ],
+  "source": "Nature Astronomy",
+  "type": "article",
+  "cited_by": 241,
+  "doi": "10.1038/s41550-018-0478-0",
+  "oa_status": "green",
+  "oa_url": "https://arxiv.org/pdf/1805.12574",
+  "publication_date": "2018-05-31",
+  "volume": "3",
+  "issue": "3",
+  "pages": "212–222",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 156,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://arxiv.org/pdf/1805.12574"
+  ],
+  "abstract": ""
+ }
+}

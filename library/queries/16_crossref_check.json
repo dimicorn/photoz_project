@@ -1,0 +1,74 @@
+{
+ "provenance": {
+  "source": "Crossref REST API",
+  "request": "https://api.crossref.org/works/<doi>",
+  "retrieved": "2026-10-18"
+ },
+ "records": {
+  "10.1093/mnras/stx687": {
+   "doi": "10.1093/mnras/stx687",
+   "title": [
+    "On the realistic validation of photometric redshifts"
+   ],
+   "journal": [
+    "Monthly Notices of the Royal Astronomical Society"
+   ],
+   "volume": "468",
+   "issue": "4",
+   "page": "4323-4339",
+   "year": [
+    2017,
+    7,
+    11
+   ],
+   "authors": [
+    "R. Beck",
+    "C.-A. Lin",
+    "E. E. O. Ishida"
+   ]
+  },
+  "10.1146/annurev-astro-032122-014611": {
+   "doi": "10.1146/annurev-astro-032122-014611",
+   "title": [
+    "Photometric Redshifts for Next-Generation Surveys"
+   ],
+   "journal": [
+    "Annual Review of Astronomy and Astrophysics"
+   ],
+   "volume": "60",
+   "issue": "1",
+   "page": "363-414",
+   "year": [
+    2022,
+    8,
+    18
+   ],
+   "authors": [
+    "Jeffrey A. Newman",
+    "Daniel Gruen"
+   ]
+  },
+  "10.3847/1538-4357/aea207": {
+   "doi": "10.3847/1538-4357/aea207",
+   "title": [
+    "Optimizing Photometric Redshift Training Sets. I. Efficient Compression of the Galaxy Color–Redshift Relation with UMAP"
+   ],
+   "journal": [
+    "The Astrophysical Journal"
+   ],
+   "volume": "1010",
+   "issue": "2",
+   "page": "140",
+   "year": [
+    2026,
+    10,
+    20
+   ],
+   "authors": [
+    "Finian Ashmead",
+    "Jeffrey A. Newman",
+    "Brett H. Andrews"
+   ]
+  }
+ }
+}

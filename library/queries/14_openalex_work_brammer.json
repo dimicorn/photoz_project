@@ -1,0 +1,62 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W2080173214?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W2080173214",
+  "title": "EAZY: A Fast, Public Photometric Redshift Code",
+  "year": 2008,
+  "authors": [
+   {
+    "name": "Gabriel B. Brammer",
+    "openalex_id": "",
+    "institutions": [
+     "Yale University"
+    ]
+   },
+   {
+    "name": "Pieter G. van Dokkum",
+    "openalex_id": "",
+    "institutions": [
+     "Yale University"
+    ]
+   },
+   {
+    "name": "P. Coppi",
+    "openalex_id": "A5044794137",
+    "institutions": [
+     "Yale University"
+    ]
+   }
+  ],
+  "source": "The Astrophysical Journal",
+  "type": "article",
+  "cited_by": 1869,
+  "doi": "10.1086/591786",
+  "oa_status": "bronze",
+  "oa_url": "https://iopscience.iop.org/article/10.1086/591786/pdf",
+  "publication_date": "2008-10-16",
+  "volume": "686",
+  "issue": "2",
+  "pages": "1503–1513",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 50,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://iopscience.iop.org/article/10.1086/591786/pdf",
+   "https://arxiv.org/pdf/0807.1533"
+  ],
+  "abstract": "We describe a new program for determining photometric redshifts, dubbed EAZY. The program is optimized for cases where spectroscopic redshifts are not available, or are only available for a biased subset of the galaxies. The code combines features from various existing codes: it can fit linear combinations of templates, it includes optional flux- and redshift-based priors, and its user interface is modeled on the popular HYPERZ code. A novel feature is that the default template set, as well as the default functional forms of the priors, are not based on (usually highly biased) spectroscopic samples, but on semianalytical models. Furthermore, template mismatch is addressed by a novel rest-frame template error function. This function gives different wavelength regions different weights, and ensures that the formal redshift uncertainties are realistic. We introduce a redshift quality parameter, Q z , which provides a robust estimate of the reliability of the photometric redshift estimate. Despite the fact that EAZY is not \"trained\" on spectroscopic samples, the code (with default parameters) performs very well on existing public data sets. For K -selected samples in CDF-South and other deep fields, we find a 1 σ scatter in Δ z/(1 + z) of 0.034, and we provide updated photometric redshift catalogs for the FIRES, MUSYC, and FIREWORKS surveys."
+ }
+}

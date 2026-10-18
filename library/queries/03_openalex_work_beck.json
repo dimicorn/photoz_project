@@ -1,0 +1,101 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/https://doi.org/10.1093/mnras/stx687?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W2584691382",
+  "title": "On the realistic validation of photometric redshifts",
+  "year": 2017,
+  "authors": [
+   {
+    "name": "Robert E. Beck",
+    "openalex_id": "A5066895161",
+    "institutions": [
+     "Eötvös Loránd University"
+    ]
+   },
+   {
+    "name": "Chieh-An Lin",
+    "openalex_id": "A5067640055",
+    "institutions": [
+     "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+     "CEA Paris-Saclay"
+    ]
+   },
+   {
+    "name": "Émille E. O. Ishida",
+    "openalex_id": "A5065617837",
+    "institutions": [
+     "Université Clermont Auvergne",
+     "Laboratoire de Physique de Clermont Auvergne"
+    ]
+   },
+   {
+    "name": "Fabian Cristian Gieseke",
+    "openalex_id": "A5023532714",
+    "institutions": [
+     "University of Copenhagen"
+    ]
+   },
+   {
+    "name": "Rafael S. de Souza",
+    "openalex_id": "A5034547685",
+    "institutions": [
+     "Eötvös Loránd University",
+     "Universidade de São Paulo"
+    ]
+   },
+   {
+    "name": "M. V. Costa-Duarte",
+    "openalex_id": "A5049025884",
+    "institutions": [
+     "Leiden University",
+     "Universidade de São Paulo"
+    ]
+   },
+   {
+    "name": "Mohammad Wasef Hattab",
+    "openalex_id": "A5071307860",
+    "institutions": [
+     "Virginia Commonwealth University"
+    ]
+   },
+   {
+    "name": "A. Krone-Martins",
+    "openalex_id": "A5108166974",
+    "institutions": [
+     "University of Lisbon"
+    ]
+   }
+  ],
+  "source": "Monthly Notices of the Royal Astronomical Society",
+  "type": "article",
+  "cited_by": 64,
+  "doi": "10.1093/mnras/stx687",
+  "oa_status": "bronze",
+  "oa_url": "https://academic.oup.com/mnras/article-pdf/468/4/4323/14077646/stx687.pdf",
+  "publication_date": "2017-03-20",
+  "volume": "468",
+  "issue": "4",
+  "pages": "4323–4339",
+  "topic": {
+   "name": "Galaxies: Formation, Evolution, Phenomena",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 115,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://academic.oup.com/mnras/article-pdf/468/4/4323/14077646/stx687.pdf",
+   "https://arxiv.org/pdf/1701.08748"
+  ],
+  "abstract": "Two of the main problems encountered in the development and accurate validation of photometric redshift (photo-z) techniques are the lack of spectroscopic coverage in the feature space (e.g. colours and magnitudes) and the mismatch between the photometric error distributions associated with the spectroscopic and photometric samples. Although these issues are well known, there is currently no standard benchmark allowing a quantitative analysis of their impact on the final photo-z estimation. In this work, we present two galaxy catalogues, Teddy and Happy, built to enable a more demanding and realistic test of photo-z methods. Using photometry from the Sloan Digital Sky Survey and spectroscopy from a collection of sources, we constructed data sets that mimic the biases between the underlying probability distribution of the real spectroscopic and photometric sample. We demonstrate the potential of these catalogues by submitting them to the scrutiny of different photo-z methods, including machine learning (ML) and template fitting approaches. Beyond the expected bad results from most ML algorithms for cases with missing coverage in the feature space, we were able to recognize the superiority of global models in the same situation and the general failure across all types of methods when incomplete coverage is convoluted with the presence of photometric errors – a data situation which photo-z methods were not trained to deal with up to now and which must be addressed by future larg …"
+ }
+}

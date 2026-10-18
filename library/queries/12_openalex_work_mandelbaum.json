@@ -1,0 +1,48 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works/W2763843986?",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "work": {
+  "openalex_id": "W2763843986",
+  "title": "Weak Lensing for Precision Cosmology",
+  "year": 2018,
+  "authors": [
+   {
+    "name": "Rachel Mandelbaum",
+    "openalex_id": "A5036065830",
+    "institutions": [
+     "Carnegie Mellon University"
+    ]
+   }
+  ],
+  "source": "Annual Review of Astronomy and Astrophysics",
+  "type": "review",
+  "cited_by": 406,
+  "doi": "10.1146/annurev-astro-081817-051928",
+  "oa_status": "bronze",
+  "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081817-051928",
+  "publication_date": "2018-07-13",
+  "volume": "56",
+  "issue": "1",
+  "pages": "393–433",
+  "topic": {
+   "name": "Cosmology and Gravitation Theories",
+   "field": "Physics and Astronomy",
+   "domain": "Physical Sciences"
+  },
+  "references_count": 260,
+  "is_retracted": false,
+  "pdf_urls": [
+   "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081817-051928",
+   "https://arxiv.org/pdf/1710.03235"
+  ],
+  "abstract": "Weak gravitational lensing, the deflection of light by mass, is one of the best tools to constrain the growth of cosmic structure with time and reveal the nature of dark energy. I discuss the sources of systematic uncertainty in weak lensing measurements and their theoretical interpretation, including our current understanding and other options for future improvement. These include long-standing concerns such as the estimation of coherent shears from galaxy images or redshift distributions of galaxies selected on the basis of photometric redshifts, along with systematic uncertainties that have received less attention to date because they are subdominant contributors to the error budget in current surveys. I also discuss methods for automated systematics detection using survey data of the 2020s. The goal of this review is to describe the current state of the field and what must be done so that if weak lensing measurements lead toward surprising conclusions about key questions such as the nature of dark energy, those conclusions will be credible."
+ }
+}

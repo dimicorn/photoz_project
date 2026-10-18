@@ -1,0 +1,39 @@
+{
+ "provenance": {
+  "source": "Wikidata",
+  "request": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=photometric+redshift&language=en&uselang=en&limit=5&format=json",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "results": [
+  {
+   "id": "Q3967221",
+   "label": "photometric redshift",
+   "description": null
+  },
+  {
+   "id": "Q60737361",
+   "label": "Photometric Redshifts and Selection of High-Redshift Galaxies in the NTT and Hubble Deep Fields",
+   "description": "scientific article published in Astronomical Journal"
+  },
+  {
+   "id": "Q58910749",
+   "label": "Photometric redshift and classification for the XMM-COSMOS sources",
+   "description": "scientific article published in the Astrophysical Journal"
+  },
+  {
+   "id": "Q58909789",
+   "label": "Photometric redshifts for the CFHTLS T0004 deep and wide fields",
+   "description": "scientific article published in Astronomy and Astrophysics"
+  },
+  {
+   "id": "Q57746598",
+   "label": "Photometric redshift analysis in the Dark Energy Survey Science Verification data",
+   "description": "article"
+  }
+ ]
+}

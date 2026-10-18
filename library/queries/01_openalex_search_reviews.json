@@ -1,0 +1,90 @@
+{
+ "provenance": {
+  "source": "OpenAlex",
+  "request": "https://api.openalex.org/works?search=photometric+redshift&per_page=5&sort=cited_by_count%3Adesc&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cauthorships%2Cprimary_location%2Ctype%2Ccited_by_count%2Copen_access&filter=from_publication_date%3A2016-01-01%2Ctype%3Areview",
+  "retrieved": "2026-10-18",
+  "untrusted_text_fields": [
+   "title",
+   "abstract",
+   "description"
+  ]
+ },
+ "found": 39,
+ "results": [
+  {
+   "openalex_id": "W2775727542",
+   "title": "Multiple Stellar Populations in Globular Clusters",
+   "year": 2018,
+   "authors": [
+    "N. Bastian",
+    "C. Lardo"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 692,
+   "doi": "10.1146/annurev-astro-081817-051839",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-081817-051839"
+  },
+  {
+   "openalex_id": "W2951722332",
+   "title": "Star Clusters Across Cosmic Time",
+   "year": 2019,
+   "authors": [
+    "Mark R. Krumholz",
+    "Christopher F. McKee",
+    "Joss Bland‐Hawthorn"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 659,
+   "doi": "10.1146/annurev-astro-091918-104430",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-091918-104430"
+  },
+  {
+   "openalex_id": "W2909385664",
+   "title": "The Faintest Dwarf Galaxies",
+   "year": 2019,
+   "authors": [
+    "Joshua D. Simon"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 611,
+   "doi": "10.1146/annurev-astro-091918-104453",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-091918-104453"
+  },
+  {
+   "openalex_id": "W3011730282",
+   "title": "The Evolution of the Star-Forming Interstellar Medium Across Cosmic Time",
+   "year": 2020,
+   "authors": [
+    "Linda J. Tacconi",
+    "R. Genzel",
+    "Amiel Sternberg"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 461,
+   "doi": "10.1146/annurev-astro-082812-141034",
+   "oa_status": "bronze",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082812-141034"
+  },
+  {
+   "openalex_id": "W3006524504",
+   "title": "Streams, Substructures, and the Early History of the Milky Way",
+   "year": 2020,
+   "authors": [
+    "A. Helmi"
+   ],
+   "source": "Annual Review of Astronomy and Astrophysics",
+   "type": "review",
+   "cited_by": 406,
+   "doi": "10.1146/annurev-astro-032620-021917",
+   "oa_status": "hybrid",
+   "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-032620-021917"
+  }
+ ]
+}

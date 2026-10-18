@@ -10,6 +10,8 @@ kNN photo-z (k = 10, feat1..feat5, обучение на Happy A) готов: σ
 Создан отчёт `reports/Качество photo-z при смещении выборки.md` — таблица метрик B/C/D
 и два утверждения из Ashmead 2026. `checks/check_graph.py` — код 0.
 
+Литература: 7 источников, 10 запросов к OpenAlex, Wikidata, Crossref; `check_graph.py --strict` — код 0.
+
 Статья сжата учебным агентом (`cascade.sh`, 08.10): `memory/L1.md` (8 частей, части в `memory/L1/`),
 `memory/L2.md` (10 тезисов), `memory/L3.md`. Сверка L2 по PDF и строка «Статья:» в L1 — за человеком.
 
