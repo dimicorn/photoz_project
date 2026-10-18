@@ -21,3 +21,5 @@
 - `library/queries/` — ответы инструментов research_mcp и Crossref с provenance (01–16).
 - `reports/my_search_report.md` — BM25 и векторный поиск по библиотеке, 5 запросов.
 - `reports/Качество photo-z при смещении выборки.md` — отчёт по метрикам B, C, D.
+- `REPORT_HW1.md` — отчёт по ДЗ 1.
+- `src/ask.py` — ответы на компетентностные вопросы по графу.
