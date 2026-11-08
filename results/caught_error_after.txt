@@ -1,0 +1,31 @@
+=== ПОСЛЕ: исправлено (FEATS = slice(7, 12)) ===
+  PASS: test_predictions_in_range
+  PASS: test_predictions_match_independent_knn
+  PASS: test_z_spec_range
+  PASS: test_knn_is_mean_not_median
+  PASS: test_row_order_preserved
+  PASS: test_row_count_matches
+  PASS: test_features_columns
+
+7 passed, 0 failed
+
+  PASS: заголовок
+  PASS: число строк
+  PASS: число столбцов
+  PASS: id > 0
+  PASS: mag_r ∈ [8, 31]
+  PASS: цвета ∈ [-16, 17]
+  PASS: z_spec ∈ [0, 5]
+  PASS: feat ∈ [-70, 70]
+  PASS: нет NaN
+
+9 passed, 0 failed
+
+  PASS: метрики совпадают с predictions
+  PASS: sigma_nmad в диапазоне
+  PASS: bias в разумных пределах
+  PASS: outlier_frac согласован
+  PASS: n и k совпадают
+  PASS: σ_NMAD растёт B < C < D
+
+6 passed, 0 failed

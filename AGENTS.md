@@ -23,6 +23,16 @@ Happy A, зависит от того, насколько проверочная
 
 Код 0 у обеих — принято. Вызови сам перед окончательным ответом.
 
+## 1.1. Верификатор ДЗ 2 (свойства kNN photo-z)
+
+```
+.venv/bin/python checks_hw2/test_photoz_properties.py && \
+.venv/bin/python checks_hw2/test_data_contract.py && \
+.venv/bin/python checks_hw2/test_metrics_consistency.py
+```
+
+22 теста: 7 свойств + 9 договора + 6 согласованности. Код 0 — принято.
+
 ## 2. Карта проекта и источники
 
 Где что лежит — в `INDEX.md`. Прочитай его первым и открывай только нужные файлы.

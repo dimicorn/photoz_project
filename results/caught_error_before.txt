@@ -1,0 +1,31 @@
+=== ДО: с ошибкой (FEATS = slice(6, 11)) ===
+  PASS: test_predictions_in_range
+  FAIL: test_predictions_match_independent_knn: B: max|z_phot − kNN| = 7.96e-01
+  PASS: test_z_spec_range
+  FAIL: test_knn_is_mean_not_median: Среднее не совпадает с z_phot
+  PASS: test_row_order_preserved
+  PASS: test_row_count_matches
+  FAIL: test_features_columns: Правильные столбцы не совпадают с z_phot
+
+4 passed, 3 failed
+
+  PASS: заголовок
+  PASS: число строк
+  PASS: число столбцов
+  PASS: id > 0
+  PASS: mag_r ∈ [8, 31]
+  PASS: цвета ∈ [-16, 17]
+  PASS: z_spec ∈ [0, 5]
+  PASS: feat ∈ [-70, 70]
+  PASS: нет NaN
+
+9 passed, 0 failed
+
+  PASS: метрики совпадают с predictions
+  PASS: sigma_nmad в диапазоне
+  PASS: bias в разумных пределах
+  PASS: outlier_frac согласован
+  PASS: n и k совпадают
+  PASS: σ_NMAD растёт B < C < D
+
+6 passed, 0 failed

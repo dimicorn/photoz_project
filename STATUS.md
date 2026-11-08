@@ -23,6 +23,16 @@ reports/Качество photo-z при смещении выборки.md.
 Литература: 7 источников, 10 запросов; ответы — library/queries/.
 Сбор литературы выполнен прямыми вызовами research_mcp; расход ai4science — 0.
 
+## ДЗ 2: Верификатор
+
+22 теста: 7 свойств kNN + 9 договора данных + 6 согласованности метрик.
+Все прошли: `checks_hw2/test_photoz_properties.py` (7/7),
+`checks_hw2/test_data_contract.py` (9/9),
+`checks_hw2/test_metrics_consistency.py` (6/6).
+
+Поймана ошибка: сдвиг FEATS с `slice(7, 12)` на `slice(6, 11)` — 3 теста ловят.
+Результаты «до» и «после» — `results/caught_error_before.txt`, `results/caught_error_after.txt`.
+
 ## Проверки и ограничения
 
 `.venv/bin/python checks/check.py` и
